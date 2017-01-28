@@ -15,9 +15,9 @@ teaching notes etc.
 #### next
 
 - [javascript](#javascript)
-- [#html](html)
-- [#css](css)
-- [#github-account](github account)
+- [html](#html)
+- [css](#css)
+- [github-account](#github-account)
 
 ### javascript
 
