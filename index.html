@@ -1,18 +1,18 @@
 <html>
   <head>
     <script>
-      function showInfo() {
-        //document.querySelector('p').innerHTML = `It is ${new Date(Date.now()).toTimeString()}`;
+      function showTime() {
+        document.querySelector('p').innerHTML = `It is ${new Date(Date.now()).toTimeString()}`;
       }
     </script>
     <style>
       body {
-        background-color:gray;
+        background-color:blue;
         color: black;
       }
     </style>
   </head>
-  <body onload="showInfo()">
+  <body onload="showTime()">
     <h1>Hello, Friend!</h1>
     <p>This should be replaced</p>
   </body>
