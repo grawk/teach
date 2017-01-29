@@ -22,7 +22,7 @@ teaching notes etc.
 
 #### next
 
-- [TextEdit](#TextEdit)
+- [TextEdit](#textedit)
 
 ### TextEdit
 
