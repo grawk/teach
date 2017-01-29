@@ -17,7 +17,25 @@ teaching notes etc.
 #### you learned
 
 - how to open terminal
+- your home directory (/Users/yourname)
 - terminal (shell) commands: pwd, ls, mkdir, cd, touch
+
+#### next
+
+- [TextEdit](#TextEdit)
+
+### TextEdit
+
+1. find TextEdit
+2. add TextEdit to task bar
+3. open TextEdit
+4. set preferences (TextEdit > Preferences)
+   - un-check "Smart quotes" and "Smart dashes"
+   - Open and Save tab: check "Display HTML files as HTML ..."
+   
+#### you learned
+
+- how to set up TextEdit for writing code
 
 #### next
 
@@ -27,6 +45,8 @@ teaching notes etc.
 
 1. open the index.html file (open terminal, cd src/first, open -e index.html)
 2. copy/paste in basic html file from here: [index.html](index.html)
+3. save
+4. Open in browser (from terminal: open index.html)
 2. customize your file (css, html, javascript)
 
 #### next
