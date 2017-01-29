@@ -57,17 +57,49 @@ teaching notes etc.
 - how to copy and paste code
 - how to open an html file in a browser
 - how to edit, save, and refresh an html file to see your changes
-- about the three main programming interfaces to the browser: html, css and javascript
+- that // in front of a line of javascript means the browser will ignore it
+- the browser interprets html, css and javascript to display a web page
 
 
 #### next
 
-- [javascript](#javascript)
+- [functions and events](#functions-and-events)
 - [html](#html)
 - [css](#css)
 - [github-account](#github-account)
 
-### javascript
+### functions and events
+
+- rename the function showTime to showtime (inside the script tag, save, refresh browser)
+- change onload="showTime()" to onload="showtime()" (inside the body tag, save, refresh browser)
+- change both instances of showtime to something silly like sandwiches (in both places, save, refresh browser)
+
+#### you learned
+
+- to change the name of a function
+- a function is executed by its name followed by ()
+- uppercase and lowercase letters in a function name make a difference 
+- onload is a browser event you can subscribe to in the html body tag
+
+#### next
+
+- [variables and objects](#variables-and-objects)
+
+### variables and objects
+
+- replace the single line of javascript inside { and } with:
+
+```js
+//hold a reference to the html paragraphs
+var paragraphs = document.querySelector('p');
+
+//hold a reference to a Date object
+var rightNow = new Date(Date.now());
+
+//use the two variables above to change the paragraph text
+paragraphs.innerHTML = `It is ${rightNow.toTimeString()}`;
+```
+- save, refresh the browser
 
 ### html
 
