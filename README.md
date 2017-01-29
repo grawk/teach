@@ -47,7 +47,18 @@ teaching notes etc.
 2. copy/paste in basic html file from here: [index.html](index.html)
 3. save
 4. Open in browser (from terminal: open index.html)
-2. customize your file (css, html, javascript)
+2. customize your file
+   - html (replace Friend with your name, save file, refresh browser)
+   - css (change gray to blue, save file, refresh browser)
+   - javascript (remove // from before document.get[... etc], save file, refresh browser)
+   
+#### you learned
+
+- how to copy and paste code
+- how to open an html file in a browser
+- how to edit, save, and refresh an html file to see your changes
+- about the three main programming interfaces to the browser: html, css and javascript
+
 
 #### next
 
